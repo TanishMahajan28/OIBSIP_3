@@ -1,23 +1,3 @@
-# import speech_recognition as sr
-# import datetime
-# import subprocess
-# import pywhatkit
-# import pyttsx3
-# import webbrowser
-
-# engine=pyttsx3.init()
-# coices=engine.getProperty('voices')
-# engine.setProperty('voice', voices[1].id)
-# recognizer = sr.Recognizer()
-
-# def cmd():
-#     with sr.Microphone() as source:
-#         print('Clearing background noises...Please wait')
-#         regognizer.adjust_for_ambient_noise(source,duration=0.5)
-#         print('Ask me anything...')
-#         recordedaudio=recognizer.list
-        
-
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
