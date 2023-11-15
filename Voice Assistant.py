@@ -45,6 +45,8 @@ def process_command(command):
     elif "take a screenshot" in command:
             pyautogui.screenshot("screenshot.png")
             speak("I took a screenshot for you.")
+    elif "hello" in command:
+        speak("Hello, Tanish. I hope you're having a nice day today!")
     elif "exit" in command:
         speak("Goodbye!")
         exit()
